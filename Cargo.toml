@@ -1,0 +1,7 @@
+[package]
+name = "rawk"
+version = "0.0.1"
+repository = "https://github.com/fnwiya/rawk"
+readme = "README.md"
+license = "Unlicense/MIT"
+authors = ["fnwiya <fnwiya@gmail.com>"]
