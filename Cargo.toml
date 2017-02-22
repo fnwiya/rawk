@@ -5,3 +5,7 @@ repository = "https://github.com/fnwiya/rawk"
 readme = "README.md"
 license = "Unlicense/MIT"
 authors = ["fnwiya <fnwiya@gmail.com>"]
+
+[dependencies]
+regex = "0.1"
+getopts = "0.2"
