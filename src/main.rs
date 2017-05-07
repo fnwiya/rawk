@@ -13,7 +13,7 @@ fn parse(args: Vec<String>) {
     let program = args[0].clone();
     let mut opts = Options::new();
 
-    opts.optflag("h", "", "show help");
+    opts.optflag("h", "help", "show help");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
         Err(f) => panic!(f.to_string()),
